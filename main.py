@@ -55,5 +55,5 @@ for exercise in exercises:
                 "calories": calories
             }
     }
-    sheety_response = requests.post(url="https://api.sheety.co/1022e180f0ac414bc9f54f2e2113f351/myWorkouts/workouts",
+    sheety_response = requests.post(url="https://api.sheety.co/username/projectName/sheetName", # API Example not a valid one.
                                     headers=sheety_headers, json=sheety_parameters)
